@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ohmyfood</title>
+    <meta name="Author" content="Joel Llewellyn-Eaton"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap">
+    <script src="https://kit.fontawesome.com/2f8a401a61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="header__logo"><img src="./images/logo/ohmyfood.png" title="ohmyfood Logo" href="#"></a>
+    </header>
+    <main>
+        <!-- Search Bar & General Info -->
+        <section class="info">
+            <form class="location">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" placeholder="Paris, Belleville" class="location__search" size="11">
+            </form>
+            <h2>Book the menu you like</h2>
+            <h3 class="info__subtitle">Discover top-of-the-art restaurants we picked for you</h3>
+            <a class="button" href="#">Explore our restaurants</a>
+        </section>
+        <!-- 'How to' Instructions -->
+        <section class="instruct">
+            <h2>How it works</h2>
+            <ol class="instruct__steps">
+                <li class="instruct__button">
+                    <i class="instruct__button__number">1</i>
+                    <i class="instruct__button__icon fas fa-mobile-alt"></i>
+                    <p>Choose a restaurant</p>
+                </li>
+                <li class="instruct__button">
+                    <i class="instruct__button__number">2</i>
+                    <i class="instruct__button__icon fas fa-list-ul"></i>
+                    <p>Create your menu</p>
+                </li>
+                <li class="instruct__button">
+                    <i class="instruct__button__number">3</i>
+                    <i class="instruct__button__icon fas fa-store"></i>
+                    <p>Go enjoy it at the restaurant</p>
+                </li>
+            </ol>
+        </section>
+        <!-- Restaurants Signed Up to the Platform -->
+        <section class="restaurant">
+            <h2>Restaurants</h2>
+            <div class="container">
+                <figure>
+                    <a class="restaurant__card" href="./The-Full-Palette.html">
+                        <img class="restaurant__image" loading="lazy" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" title="The Full Palette promo photo">
+                        <aside class="label">New</aside>
+                        <figcaption>
+                            <h3 class="restaurant__title">The Full Palette</h3>
+                            <p class="restaurant__byline">New York</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="restaurant__card">
+                    <a href="./The-Enchanted-Plate.html">
+                        <img class="restaurant__image" loading="lazy" src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" title="The Enchanted Plate promo photo">
+                        <aside class="label">New</aside>
+                        <figcaption>
+                            <h3 class="restaurant__title">The Enchanted Plate</h3>
+                            <p class="restaurant__byline">New York</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="restaurant__card">
+                    <a href="./Bastille.html">
+                        <img class="restaurant__image" loading="lazy" src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" title="Bastille promo photo">
+                        <figcaption>
+                            <h3 class="restaurant__title">Bastille</h3>
+                            <p class="restaurant__byline">New York</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </a>
+                </figure>
+                <figure class="restaurant__card">
+                    <a href="./Le-Gourmand.html">
+                        <img class="restaurant__image" loading="lazy" src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" title="Le Gourmand promo photo">
+                        <figcaption>
+                            <h3 class="restaurant__title">Le Gourmand</h3>
+                            <p class="restaurant__byline">New York</p>
+                            <i class="far fa-heart"></i>
+                        </figcaption>
+                    </a>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Nav -->
+    <footer class="footer">
+        <nav class="nav" aria-label="about">
+            <h4 class="nav__title">ohmyfood</h4>
+            <ul class="nav__list">
+                <li><a href="#"><i class="nav__icon fas fa-utensils"></i><b>Suggest a restaurant</b></a></li>
+                <li><a href="#"><i class="nav__icon fas fa-hands-helping"></i><b>Become a partner</b></a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="mailto:contact@ohmyfood.com? subject=Query & body=Message">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
