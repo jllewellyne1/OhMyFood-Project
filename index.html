@@ -46,15 +46,17 @@
             <span class="dot-3">.</span>
         </p>
     </div>
+    <!-- Header -->
     <header class="header">
-        <a class="header__logo"><img src="./images/logo/ohmyfood.png" title="ohmyfood Logo" href="#"></a>
+        <a class="header__logo"><img src="./images/logo/ohmyfood.png" title="ohmyfood Logo"></a>
     </header>
-    <main>
+
+    <main class="main">
         <!-- Search Bar & General Info -->
         <section class="info">
-            <form class="location">
+            <form class="info__location">
                 <i class="fas fa-map-marker-alt"></i>
-                <input type="text" placeholder="Paris, Belleville" class="location__search" size="11">
+                <input type="text" placeholder="Paris, Belleville" class="info__location--search" size="11">
             </form>
             <h2>Book the menu you like</h2>
             <h3 class="info__subtitle">Discover top-of-the-art restaurants we picked for you</h3>
@@ -85,46 +87,58 @@
         <section class="restaurant">
             <h2>Restaurants</h2>
             <div class="container">
-                <figure>
-                    <a class="restaurant__card" href="./The-Full-Palette.html">
+                <figure class="restaurant__card">
+                    <div class="heart__icon">
+                        <i class="heart__icon--empty far fa-heart"></i>
+                        <i class="heart__icon--full fas fa-heart"></i>
+                    </div>
+                    <a href="./The-Full-Palette.html">
                         <img class="restaurant__image" loading="lazy" src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" title="The Full Palette promo photo">
-                        <aside class="label">New</aside>
-                        <figcaption>
-                            <h3 class="restaurant__title">The Full Palette</h3>
-                            <p class="restaurant__byline">New York</p>
-                            <i class="far fa-heart"></i>
-                        </figcaption>
+                        <span class="restaurant__label"><b>New</b></span>
+                        <div class="restaurant__caption">
+                            <h3>The Full Palette</h3>
+                            <p>New York</p>
+                        </div>
                     </a>
                 </figure>
                 <figure class="restaurant__card">
+                    <div class="heart__icon">
+                        <i class="heart__icon--empty far fa-heart"></i>
+                        <i class="heart__icon--full fas fa-heart"></i>
+                    </div>
                     <a href="./The-Enchanted-Plate.html">
                         <img class="restaurant__image" loading="lazy" src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" title="The Enchanted Plate promo photo">
-                        <aside class="label">New</aside>
-                        <figcaption>
-                            <h3 class="restaurant__title">The Enchanted Plate</h3>
-                            <p class="restaurant__byline">New York</p>
-                            <i class="far fa-heart"></i>
-                        </figcaption>
+                        <span class="restaurant__label"><b>New</b></span>
+                        <div class="restaurant__caption">
+                            <h3>The Enchanted Plate</h3>
+                            <p>New York</p>
+                        </div>
                     </a>
                 </figure>
                 <figure class="restaurant__card">
+                    <div class="heart__icon">
+                        <i class="heart__icon--empty far fa-heart"></i>
+                        <i class="heart__icon--full fas fa-heart"></i>
+                    </div>
                     <a href="./Bastille.html">
                         <img class="restaurant__image" loading="lazy" src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" title="Bastille promo photo">
-                        <figcaption>
-                            <h3 class="restaurant__title">Bastille</h3>
-                            <p class="restaurant__byline">New York</p>
-                            <i class="far fa-heart"></i>
-                        </figcaption>
+                        <div class="restaurant__caption">
+                            <h3>Bastille</h3>
+                            <p>New York</p>
+                        </div>
                     </a>
                 </figure>
                 <figure class="restaurant__card">
+                    <div class="heart__icon">
+                        <i class="heart__icon--empty far fa-heart"></i>
+                        <i class="heart__icon--full fas fa-heart"></i>
+                    </div>
                     <a href="./Le-Gourmand.html">
                         <img class="restaurant__image" loading="lazy" src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" title="Le Gourmand promo photo">
-                        <figcaption>
-                            <h3 class="restaurant__title">Le Gourmand</h3>
-                            <p class="restaurant__byline">New York</p>
-                            <i class="far fa-heart"></i>
-                        </figcaption>
+                        <div class="restaurant__caption">
+                            <h3>Le Gourmand</h3>
+                            <p>New York</p>
+                        </div>
                     </a>
                 </figure>
             </div>
@@ -133,12 +147,12 @@
     <!-- Footer Nav -->
     <footer class="footer">
         <nav class="nav" aria-label="about">
-            <h4 class="nav__title">ohmyfood</h4>
+            <a class="nav__title" href="./index.html">ohmyfood</a>
             <ul class="nav__list">
-                <li><a href="#"><i class="nav__icon fas fa-utensils"></i><b>Suggest a restaurant</b></a></li>
-                <li><a href="#"><i class="nav__icon fas fa-hands-helping"></i><b>Become a partner</b></a></li>
+                <li><a href="#"><i class="nav__list--icon fas fa-utensils"></i><b>Suggest a restaurant</b></a></li>
+                <li><a href="#"><i class="nav__list--icon fas fa-hands-helping"></i><b>Become a partner</b></a></li>
                 <li><a href="#">Legal</a></li>
-                <li><a href="mailto:contact@ohmyfood.com? subject=Query & body=Message">Contact</a></li>
+                <li><a href="mailto:contact@ohmyfood.com?subject=Query&body=Message">Contact</a></li>
             </ul>
         </nav>
     </footer>
