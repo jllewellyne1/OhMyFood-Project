@@ -48,3 +48,17 @@
         }
     }
 }
+
+// UNORDERED LIST //
+
+.nav {
+    &__title {
+        font-weight: 200;
+        margin-bottom: 10px;
+        color: $white;
+        font-family: "Shrikhand","cursive";
+    }
+    &__list {
+        padding: 0;
+        line-height: 24px;
+        font-size: 14px;
