@@ -79,3 +79,16 @@
         align-items: end;
         padding: 0.8rem 1.2rem 0.8rem 0;
     }
+    &__select {
+        background-color: $color-tertiary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 0.5s;
+        i {
+            color: $white;
+            transition: 0.5s;
+            transform: rotate(0);
+        }
+    }
+}
