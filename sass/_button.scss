@@ -15,4 +15,9 @@
         box-shadow: 5px 5px 12px $dark-grey;
         transform: translateY(-0.2em);
     }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
 }
