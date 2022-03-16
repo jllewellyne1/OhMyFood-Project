@@ -289,7 +289,7 @@ p {
     justify-content: center; }
 
 @keyframes loading-opacity {
-  0%, 50% {
+  0%, 75% {
     opacity: 1; }
   99% {
     opacity: 0;
