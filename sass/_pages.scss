@@ -32,3 +32,11 @@
 
 .menu {
     background-color: #eee;
+    margin-top: -2rem;
+    border-radius: 2rem 2rem 0 0;
+    z-index: 1;
+    position: relative;
+    &__position {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
