@@ -59,6 +59,15 @@
         font-family: "Shrikhand","cursive";
     }
     &__list {
+        list-style: none;
         padding: 0;
         line-height: 24px;
         font-size: 14px;
+        a {
+            color: $white;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
