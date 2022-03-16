@@ -81,10 +81,14 @@
     }
     &__select {
         background-color: $color-tertiary;
+        width: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         transition-duration: 0.5s;
+        &:hover {
+            width: 70px;
+        }
         i {
             color: $white;
             transition: 0.5s;
@@ -95,4 +99,8 @@
 
 .dish:hover > .dish__select i {
     transform: rotate(360deg);
+}
+
+.dish:hover > .dish__select {
+    width: 70px;
 }
