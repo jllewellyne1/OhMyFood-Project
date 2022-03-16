@@ -8,3 +8,12 @@
     background: $white !important;
     text-align: -webkit-center;
     padding-top: 250px;
+    &__text {
+        font-family: "Shrikhand", "cursive";
+        font-size: 2rem;
+        margin-top: 1rem;
+        color: $color-primary;
+        display: flex;
+        justify-content: center;
+    }
+}
