@@ -1,0 +1,8 @@
+// RESTAURANT CARD //
+
+.restaurant {
+    &__card {
+        background-color: $white;
+        border-radius: 1rem;
+        position: relative;
+        box-shadow: 3px 3px 8px 2px $mid-grey;
