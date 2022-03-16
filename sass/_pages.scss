@@ -13,3 +13,12 @@
         text-align: center;
         padding: 15px 0;
         font-weight: 700;
+        &--search {
+            border: hidden;
+            background-color: #a9a9a900;
+            font-weight: 600; }
+            ::placeholder {
+                color: $black;
+            }
+        }
+}
