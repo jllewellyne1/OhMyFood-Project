@@ -25,4 +25,12 @@
         top: 1.6em;
     }
 }
+
+.footer {
+    background-color: $color-footer;
+    color: $white;
+    padding: 20px;
+    &__a {
+        color: $white;
+    }
 }
