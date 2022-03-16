@@ -1,0 +1,15 @@
+// HOME PAGE //
+
+.info {
+    background-color: $light-grey;
+    padding: 72px 0 60px 0;
+    text-align: center;
+    &__subtitle {
+        margin: 30px 25px 50px;
+        font-weight: 400;
+    }
+    &__location {
+        background-color: $mid-grey;
+        text-align: center;
+        padding: 15px 0;
+        font-weight: 700;
