@@ -96,3 +96,11 @@
     75% {opacity: 0.25;}
     100% {opacity: 0;}
 }
+
+// DISH SLIDEUP //
+
+@for $i from 1 through 10 {
+    .delay-#{$i} {
+        animation-delay: #{$i/5}s;
+    }
+}
