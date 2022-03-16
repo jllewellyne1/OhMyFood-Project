@@ -6,6 +6,12 @@
         border-radius: 1rem;
         position: relative;
         box-shadow: 3px 3px 8px 2px $mid-grey;
+        i {
+            bottom: 1em;
+            right: 1em;
+            font-size: 25px;
+            position: absolute;
+        }
         &:hover {
             transition: all .25s ease-in-out;
             transform: scale(1.05);
