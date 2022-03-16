@@ -57,4 +57,15 @@
     margin: 1rem 0;
     box-shadow: 0px 3px 5px 1px #a9a9a966;
     line-height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
     cursor: pointer;
+    &__text {
+        overflow: hidden;
+        padding: 0.8rem;
+    }
+    &__name, &__description {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
