@@ -20,3 +20,19 @@
         justify-content: center;
     }
 }
+
+@keyframes loading-opacity {
+    0%, 50% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+        top: 0;
+        bottom: 0;
+    }
+    100% {
+        opacity: 0; 
+        top: -100vh;
+        bottom: auto;
+    }
+}
