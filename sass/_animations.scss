@@ -36,3 +36,18 @@
         bottom: auto;
     }
 }
+
+// SPINNER //
+
+.circle-1, .circle {
+    height: 150px;
+    width: 70px;
+    border-left: 3px solid $color-secondary;
+    border-top: 3px solid $color-tertiary;
+    border-right: 3px solid $color-secondary;
+    border-bottom: 3px solid $color-tertiary;
+    position: relative;
+    border-radius: 50%;
+    transition: 2.5s linear;
+    transform: rotate(15deg);
+}
