@@ -92,3 +92,7 @@
         }
     }
 }
+
+.dish:hover > .dish__select i {
+    transform: rotate(360deg);
+}
