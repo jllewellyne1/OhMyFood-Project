@@ -48,3 +48,13 @@
         padding: 14px;
     }
 }
+// DISH CARD //
+
+.dish {
+    background-color: $white;
+    display: flex;
+    border-radius: 0.75rem;
+    margin: 1rem 0;
+    box-shadow: 0px 3px 5px 1px #a9a9a966;
+    line-height: 24px;
+    cursor: pointer;
