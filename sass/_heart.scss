@@ -3,12 +3,28 @@
     &--empty { 
         &::before {
             color: #a9a9a9;
+            z-index: 1;
+            opacity: 1;
             transition: opacity 400ms ease-in;
         }
 
+        &:hover::before {
+            z-index: -1;
+            opacity: 0;
+        }
+    }
     &--full {
         &::before {
             background: linear-gradient(to bottom right, $color-secondary, $color-primary);
 
+            z-index: -1;
+            opacity: 0;
             transition: opacity 800ms ease-out;
         }
+
+        &:hover::before {
+            z-index: 1;
+            opacity: 1;
+        }
+    }  
+}
