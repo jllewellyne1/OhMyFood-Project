@@ -16,6 +16,9 @@
     &--full {
         &::before {
             background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 
             z-index: -1;
             opacity: 0;
