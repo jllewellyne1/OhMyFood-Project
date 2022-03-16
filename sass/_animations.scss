@@ -8,6 +8,9 @@
     background: $white !important;
     text-align: -webkit-center;
     padding-top: 250px;
+    animation-name: loading-opacity;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
     &__text {
         font-family: "Shrikhand", "cursive";
         font-size: 2rem;
