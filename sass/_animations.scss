@@ -51,3 +51,20 @@
     transition: 2.5s linear;
     transform: rotate(15deg);
 }
+
+.circle {
+    bottom: 3px;
+    right: 3px;
+}
+
+.circle-1 {
+    animation-name: spin;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    100% {transform: rotate(360deg);}
+}
