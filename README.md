@@ -1,6 +1,8 @@
 # OhMyFood-Project
 OpenClassrooms Project 2 on the Web Developer (Skills Bootcamp) Pathway
 
+https://jllewellyne1.github.io/OhMyFood-Project/
+
 -------------Scenario-----------------
 
 You have just been recruited at Ohmyfood as a junior developer. Congratulations!
