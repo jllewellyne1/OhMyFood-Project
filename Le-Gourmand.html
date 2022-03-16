@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ohmyfood</title>
+    <meta name="Author" content="Joel Llewellyn-Eaton"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f8a401a61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="./index.html"><i class="fas fa-arrow-left arrow-visible"></i></a>
+        <a class="header__logo"><img src="./images/logo/ohmyfood.png" title="ohmyfood Logo"></a>
+    </header>
+
+    <img class="menu__image" src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" title="Le Gourmand promo photo">
+    <!-- Menu title & heart icon -->
+    <main class="menu">
+        <div class="menu__title">
+            <h1>Le Gourmand</h1>
+            <span class="heart__icon menu__position">
+                <i class="heart__icon--empty far fa-heart"></i>
+                <i class="heart__icon--full fas fa-heart"></i>
+            </span>
+        </div>
+        <section class="container">
+            <div class="submenu">
+                <!-- Starters -->
+                <h3 class="submenu__title">ENTREES</h3>
+                <div class="dish delay-1">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Tuna Carpaccio</h4>
+                        <p class="dish__description">seasoned with yuzu</p>
+                    </div>
+                    <p class="dish__price"><b>25€</b></p>
+                    <div class="dish__select">
+                        <i class="fas fa-check-circle fa-lg"></i>
+                    </div>
+                </div>
+                <div class="dish delay-2">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Crunchy Lobster Croquettes</h4>
+                        <p class="dish__description">with seasonal vegetables</p>
+                    </div>
+                    <p class="dish__price"><b>35€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+                <div class="dish delay-3">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Mushroom Soup</h4>
+                        <p class="dish__description">with truffles</p>
+                    </div>
+                    <p class="dish__price"><b>20€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+            </div>
+            <!-- Mains -->
+            <div class="submenu">
+                <h3 class="submenu__title">MAIN DISH</h3>
+                <div class="dish delay-4">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Roast Chicken with Provincial Herbs</h4>
+                        <p class="dish__description">with truffle cream</p>
+                    </div>
+                    <p class="dish__price"><b>40€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+                <div class="dish delay-5">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Roasted Lobster</h4>
+                        <p class="dish__description">with seasonal vegetables</p>
+                    </div>
+                    <p class="dish__price"><b>35€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+                <div class="dish delay-6">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Angus Beef Ribs</h4>
+                        <p class="dish__description">with mashed parsnips</p>
+                    </div>
+                    <p class="dish__price"><b>44€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+            </div>
+            <!-- Dessert -->
+            <div class="submenu">
+                <h3 class="submenu__title">DESSERTS</h3>
+                <div class="dish delay-7">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Assorted Dessert Plate</h4>
+                        <p class="dish__description">Chef's choice</p>
+                    </div>
+                    <p class="dish__price"><b>18€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+                <div class="dish delay-8">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Crème Brûlée</h4>
+                        <p class="dish__description">Revisited</p>
+                    </div>
+                    <p class="dish__price"><b>22€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+                <div class="dish delay-9">
+                    <div class="dish__text">
+                        <h4 class="dish__name">Tiramisu</h4>
+                        <p class="dish__description">with hazelnuts</p>
+                    </div>
+                    <p class="dish__price"><b>23€</b></p>
+                    <span class="dish__select"><i class="fas fa-check-circle fa-lg"></i></span>
+                </div>
+            </div>
+        </section>
+        <!-- Button -->
+        <div class="button__wrapper">
+            <a class="button">Order</a>
+        </div>
+
+    </main>
+    <!-- Footer Nav -->
+    <footer class="footer">
+        <nav class="nav" aria-label="about">
+            <a class="nav__title" href="./index.html">ohmyfood</a>
+            <ul class="nav__list">
+                <li><a href="#"><i class="nav__list--icon fas fa-utensils"></i><b>Suggest a restaurant</b></a></li>
+                <li><a href="#"><i class="nav__list--icon fas fa-hands-helping"></i><b>Become a partner</b></a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="mailto:contact@ohmyfood.com?subject=Query&body=Message">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
