@@ -34,3 +34,13 @@
         box-shadow: none;
         object-fit: cover;
     }
+    &__label {
+        background-color: $color-tertiary;
+        color: #2a8f76;
+        padding: 6px 24px;
+        border-radius: 2px;
+        position: absolute;
+        top: 1rem;
+        right: 0.75rem;
+        font-size: 0.8rem;
+    }
