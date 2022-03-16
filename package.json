@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood-project",
+  "version": "1.0.0",
+  "description": "Mock food ordering website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w ./scss/main.scss ./css/main.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jllewellyne1/OhMyFood-Project"
+  },
+  "author": "Joel Llewellyn-Eaton",
+  "license": "ISC",
+  "homepage": "https://jllewellyne1.github.io/OhMyFood-Project/",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
