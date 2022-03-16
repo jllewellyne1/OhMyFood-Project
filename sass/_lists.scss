@@ -5,6 +5,8 @@
     &__steps {
         display: flex;
         flex-direction: column;
+        padding-inline-start: 12px;
+    }
     &__button {
         height: 65px;
         display: flex;
