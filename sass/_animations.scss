@@ -68,3 +68,23 @@
 @keyframes spin {
     100% {transform: rotate(360deg);}
 }
+
+// FADING DOTS //
+
+.dot-1 {
+    animation: fadeinout 800ms ease-in infinite;
+    animation-delay: 200ms;
+    margin-top: 3px;
+}
+
+.dot-2 {
+    animation: fadeinout 800ms ease-in infinite;
+    animation-delay: 400ms;
+    margin-top: 3px;
+}
+
+.dot-3 {
+    animation: fadeinout 800ms ease-in infinite;
+    animation-delay: 600ms;
+    margin-top: 3px;
+}
