@@ -3,3 +3,12 @@
     &--empty { 
         &::before {
             color: #a9a9a9;
+            transition: opacity 400ms ease-in;
+        }
+
+    &--full {
+        &::before {
+            background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+
+            transition: opacity 800ms ease-out;
+        }
