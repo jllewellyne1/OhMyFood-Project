@@ -60,3 +60,12 @@
         position: absolute;
     }
 }
+
+.submenu {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 1rem;
+    &__title {
+        position: relative;
+        padding-bottom: 0.5rem;
+        font-weight: 400;
