@@ -1,0 +1,5 @@
+.heart__icon {
+    cursor: pointer;
+    &--empty { 
+        &::before {
+            color: #a9a9a9;
