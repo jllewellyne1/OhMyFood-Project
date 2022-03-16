@@ -59,6 +59,10 @@
     line-height: 24px;
     text-overflow: ellipsis;
     overflow: hidden;
+    animation-name: slideup;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.59, 0.21, 0.52, 1.03);
+    animation-fill-mode: both;
     cursor: pointer;
     &__text {
         overflow: hidden;
