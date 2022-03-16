@@ -63,6 +63,11 @@
         padding: 0;
         line-height: 24px;
         font-size: 14px;
+        &--icon {
+            margin-right: 0.8em;
+            transform: scale(0.8);
+            width: 1em;
+        }
         a {
             color: $white;
             &:hover {
