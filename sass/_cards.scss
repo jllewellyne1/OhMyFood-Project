@@ -62,10 +62,16 @@
     cursor: pointer;
     &__text {
         overflow: hidden;
+        flex-grow: 1;
         padding: 0.8rem;
     }
     &__name, &__description {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+    }
+    &__price {
+        display: flex;
+        align-items: end;
+        padding: 0.8rem 1.2rem 0.8rem 0;
     }
